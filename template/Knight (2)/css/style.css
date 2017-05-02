@@ -167,6 +167,10 @@ p{
 
 /* Navigation
 ---------------------------------*/
+.static-nav-custom{
+	position: absolute;
+}
+
 .small-logo{ 
 	padding:0 32px;
 }
