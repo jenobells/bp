@@ -104,12 +104,14 @@ p{
 
 .header{
 	text-align:center;
-	background:url(../img/pw_maze_black_2X.png) left top repeat;
+	background:url(../img/header-bg1.jpg);
 	padding:280px 0;
 }
-.logo{
-	width:130px;
-	margin:0 auto 35px;
+.logo{;
+}
+
+.becker-logo{
+    width: 1000px;
 }
 .header h1{
 	font-family: 'Montserrat',sans-serif;
@@ -167,6 +169,19 @@ p{
 
 /* Navigation
 ---------------------------------*/
+.static-nav-custom{
+	position: absolute;
+    color: #fff ;
+    margin-top: 20px;
+}
+
+.static-nav-custom li{
+    font-weight: bold;
+    color: #fff !important;
+    font-size: 1.2em;
+    letter-spacing:2px;
+}
+
 .small-logo{ 
 	padding:0 32px;
 }
@@ -190,19 +205,19 @@ p{
 }
 .main-nav li a{
 	display:inline-block;
-	color:#222222;
+	color:#800020;
 	text-transform:uppercase;
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
 	line-height:20px;
-	margin:17px 32px;
+	margin:17px;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
 }
 .main-nav li a:hover{ 
 	text-decoration:none;
-	color: #7cc576;
+	color: #FFD700;
 }
 .main-section{
 	padding:90px 0 110px;
