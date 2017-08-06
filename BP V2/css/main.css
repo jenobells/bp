@@ -1,0 +1,633 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+/* ==========================================================================
+Global Styles
+========================================================================== */
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    color: #0d0d0d;
+    overflow-x: hidden;
+    letter-spacing: 0.1em;
+}
+
+img {
+    image-orientation: from-image;
+}
+
+hr {
+    border-color: black;
+}
+
+a{
+    color: inherit;
+    transition: all 0.2s ease;
+}
+
+a:hover{
+    color:inherit;
+}
+
+.cursor-default{
+    cursor: default;
+}
+
+.no-margin{
+	margin: 0px;
+}
+
+.no-padding{
+	padding: 0px;
+}
+
+.no-margin-top-bottom{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.pull-bottom{
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+    left: 0px;
+    bottom: 0em;
+}
+
+.yellow-text{
+    color: #FFD700;
+}
+
+.red-text{
+    color: rgba(176,50,54,1);
+}
+
+.black-text{
+    color: black;
+}
+
+.red-overlay{
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(128,0,32,0.9);
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.yellow-overlay{
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(255,215,0,0.9);
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+
+.btn-outline {
+    background-color: transparent;
+    color: inherit;
+}
+
+/* ==========================================================================
+Footer Style
+========================================================================== */
+#footer{
+    background-color: rgb(35,35,35);
+    padding-top: 7.5vh;
+    padding-bottom: 7.5vh;
+}
+
+.footer-title{
+    color: white;
+    font-family: Roboto;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+.footer-sub-text{
+    font-size: 0.75em;
+    margin-top: 20px;
+    color: white;
+}
+
+.footer-logo{
+    font-size: 1.5em;
+    margin-top: 0.5em;
+}
+
+.footer-address{
+    margin-top: 0.5em;
+}
+
+.footer-mobile{
+    margin-top: 0.5em;
+}
+
+.footer-email{
+    margin-top: 0.5em;
+}
+
+/* ==========================================================================
+Header Styles
+========================================================================== */
+#header{
+	background-color: white;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+/* ==========================================================================
+Navbar
+========================================================================== */
+.navbar-custom{
+	background-color: #800020;
+    border: none;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar {
+    text-align: center;
+}
+.navbar-toggle {
+    z-index: 3;
+}
+
+.nav-item{
+	color: #fff !important;
+	font-size: 0.75em;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	transition: all 0.2s ease;
+}
+.nav-item:hover{
+	transform: scale(1.2);
+}
+
+/* ==========================================================================
+Navbar Dropdown Menu Extended
+========================================================================== */
+
+#menu-drop{
+    font-size: 0.75em;
+}
+
+#menu-drop:hover{
+    text-decoration: none;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+    background-color: transparent;
+}
+
+.dropdown{
+    padding: 15px;
+    padding-top: 12.5px;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+/* ==========================================================================
+Sub-Header
+========================================================================== */
+#sub-header{
+    background-image: url(http://wallpapercave.com/wp/e7Mog2e.jpg);
+    background-position: center;
+    background-size: cover;
+    border-bottom: solid 1px #FFD700;
+}
+
+#sub-header-2{
+    background-image: url(http://wallpapercave.com/wp/e7Mog2e.jpg);
+    background-position: center;
+    background-size: cover;
+    border-top: solid 2px rgba(128,0,32,1);
+}
+
+.sub-header-title{
+    font-size: 24px;
+    font-family: Open Sans Condensed;
+    margin-bottom: 10vh;
+    font-weight: 700;
+    display: block;
+    text-transform: uppercase;
+}
+
+.sub-header-wrapper{
+    position: relative;
+    height: 25vh;
+    display: block;
+    overflow: hidden;
+}
+
+.sub-header-caption{
+    position: absolute;
+    z-index: 5;
+    bottom: 5px;
+    left: 15px;
+    right: 35px;
+    color: #fff;
+}
+
+/* ==========================================================================
+Search
+========================================================================== */
+
+#search{
+    background-color: #222;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    border-bottom: solid 2px #FFD700;
+}
+
+.header-input-group .input-group-addon{
+    background: white !important; 
+}
+.header-input-group .form-control{
+    border-right:0; 
+    box-shadow:0 0 0; 
+    border-color:#ccc;
+    border-radius: 0px;
+}
+.header-input-group button{
+    border:0;
+    background:transparent;
+}
+.btn-search{
+    background-color: rgba(128,0,32,1);
+    color: white;
+    font-family: Roboto;    
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.75em;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+.search-bar{
+    margin: none;
+    outline: none;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+
+/* ==========================================================================
+Featured
+========================================================================== */
+
+.featured-item-title{
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-weight: 800;
+    letter-spacing: 0.05em;
+}
+
+.featured-item-title-sm{
+    font-size: 16px;
+    font-family: open sans condensed;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.featured-item-title-wrapper{
+    position: relative;
+    height: 25vh;
+    display: block;
+    overflow: hidden;
+}
+
+.featured-item-title-container{
+    background-image: url(http://wallpapercave.com/wp/e7Mog2e.jpg);
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    color: white;
+    border-bottom: solid 3px #FFD700;
+}
+
+.white-panel {
+    margin-top: 2em;
+    background: white;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    min-height: 32vh;
+}
+
+.white-panel-lg{
+    min-height: 37vh;
+}
+
+.white-panel-first{
+    margin-top: 1em;
+}
+
+.product-title{
+    font-family: Roboto;
+    font-size: 0.75em;
+    text-transform: uppercase;
+}
+.product-details{
+    font-family: Roboto;
+    font-size: 0.6em;
+    text-transform: uppercase;
+}
+.product-price{
+    font-family: Roboto;
+    font-size: 0.65em;
+    text-transform: uppercase;
+}
+
+.product-price-container{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.white-panel-lg .btn-item{
+    margin-bottom: 1.25em;
+}
+
+.btn-item{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-family: Roboto;    
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-color: rgba(0,0,0,0.3);
+    color: black;
+    border-radius: 0px;
+    font-size: 0.75em;
+    margin-bottom: 1.75em;
+}
+.btn-item:hover{
+    background-color: rgba(57,0,144,1);
+    color: white;
+}
+.btn-featured:hover{
+    background-color: black;
+    color: white;
+}
+.btn-featured{
+    margin-top: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-family: Roboto;    
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-color: rgba(0,0,0,0.3);
+    border-radius: 0px;
+    font-size: 1em;
+    background-color: white;
+    margin-bottom: 5vh;
+}
+
+/* ==========================================================================
+Social
+========================================================================== */
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left:0 !important;
+    padding: 0;
+}
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+.social-network a.icoRss:hover {
+    background-color: #F56505;
+}
+.social-network a.icoFacebook:hover {
+    background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+    background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+    background-color:#BD3518;
+}
+.social-network a.icoVimeo:hover {
+    background-color:#0590B8;
+}
+.social-network a.icoLinkedin:hover {
+    background-color:#007bb7;
+}
+.social-network a.icoInstagram:hover {
+    background-color: orangered;
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i, .social-network a.icoInstagram:hover i {
+    color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+    color:#44BCDD;
+}
+.social-circle li a {
+    display:inline-block;
+    position:relative;
+    margin:0 auto 0 auto;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+    text-align:center;
+    width: 50px;
+    height: 50px;
+    font-size:20px;
+}
+.social-circle li i {
+    margin:0;
+    line-height:50px;
+    text-align: center;
+}
+.social-circle li a:hover i, .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.social-circle i {
+    color: white;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.container-social{
+    margin-top: 0.5em;
+}
+
+/* ==========================================================================
+ CATALOG
+========================================================================== */
+#product-catalog{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-color: #EFEFEF;
+}
+
+.catalog-item-title{
+    font-size: 28px;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-weight: 800;
+    letter-spacing: 0.05em;
+}
+
+.catalog-title{
+    font-size: 20px;
+    text-transform: uppercase;;
+    font-family: 'Lato';
+    font-weight: 800;
+    letter-spacing: 0.02em;
+}
+
+.search-group{
+    margin-top: 0.5em;
+}
+
+.catalog-count{
+    font-size: 0.75em;
+}
+
+.catalog-category{
+    margin-top: 0.5em;
+    padding-left: 1em;
+}
+
+.push-left{
+    font-size: 0.9em;
+    padding-left: 2em;
+    margin-top: 0em !important;
+    margin-bottom: 0em !important;
+}
+
+.catalog-left{
+    margin-top: 1.5em;
+}
+
+.catalog-left-small{
+    margin-top: 0.25em;
+}
+
+.catalog-category li{
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    list-style-type: none;
+}
+
+.catalog-category a{
+    font-size: 0.8em;
+}
+
+.catalog-category li::before{
+    content: "\f105";
+    font-family: FontAwesome;
+    margin-right: 10px;
+    font-size: 0.9em;
+}
+
+.catalog-select{
+    border: black solid 2px;
+}
+
+/* ==========================================================================
+ CART
+========================================================================== */
+#cart{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.product-cart-title{
+    font-family: Roboto;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+.product-cart-details{
+    font-family: Roboto;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+.product-cart-price{
+    font-family: Roboto;
+    font-size: 0.65em;
+    text-transform: uppercase;
+}
+.btn-remove{
+    background-color: rgba(176,50,54,1);
+    border: none;
+    color: white;
+}
+
+.btn-proceed{
+    background-color: rgba(176,50,54,1);
+    border: none;
+    color: white;
+    border-radius: 0px;
+    margin-bottom: 1em;
+}
