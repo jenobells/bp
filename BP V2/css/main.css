@@ -711,3 +711,32 @@ a.socialIcon:hover, .socialHoverClass {
     background-color: #C0C0C0;
     outline-color: #C0C0C0;
 }
+
+/* ==========================================================================
+ PRODUCT DETAILS
+========================================================================== */
+
+#product-detail{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.product-detail-lg{
+    font-size: 1.25em;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-weight: 800;
+    letter-spacing: 0.05em;
+}
+
+.product-detail-sm{
+    font-family: Roboto;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+.product-detail-desc{
+    font-family: Roboto;
+    font-size: 0.65em;
+    text-transform: uppercase;
+}
