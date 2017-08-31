@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 @import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://fonts.googleapis.com/css?family=Roboto);
+
 /* ==========================================================================
 Global Styles
 ========================================================================== */
@@ -372,6 +373,10 @@ Featured
     min-height: 32vh;
 }
 
+.white-panel-sm{
+    min-height: 1vh;
+}
+
 .white-panel-lg{
     min-height: 37vh;
 }
@@ -602,15 +607,14 @@ a.socialIcon:hover, .socialHoverClass {
     padding-top: 5vh;
     padding-bottom: 5vh;
 }
-
 .product-cart-title{
     font-family: Roboto;
-    font-size: 1em;
+    font-size: 0.8em;
     text-transform: uppercase;
 }
 .product-cart-details{
     font-family: Roboto;
-    font-size: 0.8em;
+    font-size: 0.65em;
     text-transform: uppercase;
 }
 .product-cart-price{
@@ -622,12 +626,88 @@ a.socialIcon:hover, .socialHoverClass {
     background-color: rgba(176,50,54,1);
     border: none;
     color: white;
+    margin-bottom: 0em;
 }
-
 .btn-proceed{
     background-color: rgba(176,50,54,1);
     border: none;
     color: white;
     border-radius: 0px;
     margin-bottom: 1em;
+}
+
+/* ==========================================================================
+ SIGN UP
+========================================================================== */
+
+#register{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+#login-form, #register-form{
+    margin-top: 3vh;
+}
+
+.login-text-sm{
+    font-family: 'Lato';
+    font-size: 0.75em;
+}
+
+.register-text-sm{
+    font-family: 'Lato';
+    font-size:0.6em;
+}
+
+.register-hint{
+    margin-top: 1vh;
+    margin-bottom: 1.5vh;
+}
+
+.login-checkbox{
+    margin-top: 0px;
+    margin-bottom: 2.5vh;
+}
+
+.register-title{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-weight: 800;
+    letter-spacing: 0.05em;
+}
+
+.register-title-sm{
+    font-size: 16px;
+    font-family: open sans condensed;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.register-input-group{
+    margin-bottom: 1vh;
+}
+
+.register-input-group .input-group-addon{
+    background: white !important; 
+}
+.register-input-group .form-control{
+    border-right:0; 
+    box-shadow:0 0 0; 
+    border-color:#ccc;
+    border-radius: 0px;
+}
+.register-input-group button{
+    border:0;
+    background:transparent;
+}
+
+/* ==========================================================================
+ TRACK ORDER
+========================================================================== */
+
+.track-order-hr{
+    border-color: #C0C0C0;
+    background-color: #C0C0C0;
+    outline-color: #C0C0C0;
 }
